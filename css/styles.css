@@ -61,19 +61,46 @@ a {
   position: relative;
   left: 15%;
   top: 25px;
+  animation-name: top-cloud-anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes top-cloud-anim {
+  50% {
+    left: 25%;
+  }
 }
 
 .middle-cloud {
   position: absolute;
-  left: 15%;
+  left: 8%;
   top: 200px;
   z-index: 2;
+  animation-name: middle-cloud-anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes middle-cloud-anim {
+  20% {
+    left: -1%;
+  }
 }
 
 .bottom-cloud {
   position: absolute;
   right: 10%;
   top: 400px;
+  animation-name: bottom-cloud-anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bottom-cloud-anim {
+  70% {
+    transform: scale(1.5);
+  }
 }
 
 .skill-pic {
