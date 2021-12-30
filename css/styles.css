@@ -64,6 +64,7 @@ a {
   animation-name: top-cloud-anim;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes top-cloud-anim {
@@ -80,6 +81,7 @@ a {
   animation-name: middle-cloud-anim;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes middle-cloud-anim {
@@ -93,8 +95,9 @@ a {
   right: 10%;
   top: 400px;
   animation-name: bottom-cloud-anim;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
 }
 
 @keyframes bottom-cloud-anim {
